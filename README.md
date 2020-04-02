@@ -26,3 +26,9 @@ to give the input a csv and a json run the identifier as idle and pass the names
 with their directories with respect to identifier file
 i have uploaded test json and csv files to check them
 after adding file name run it(f5)
+
+******there is some bug in url 
+******for webscrapper
+ the given url opens on  page 1 by default though it has 12 pages in it
+ each page have its own url so this program will only give a csv file for page 1
+ for other pages you can input their urls to get their csv files
