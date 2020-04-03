@@ -32,3 +32,4 @@ after adding file name run it(f5)
  the given url opens on  page 1 by default though it has 12 pages in it
  each page have its own url so this program will only give a csv file for page 1
  for other pages you can input their urls to get their csv files
+ ******also note that when url:https://summerofcode.withgoogle.com/archive/2019/projects/?page=4 is entered in program 1 (webscra.py) then it will make a csv file containing the name of Avik Pal but when we run the program 2(identify.py) by taking that csv file as input it does not show the name of Avik pal(he is from iitk ) the reason being that in students.json file his name is written with 2 spaces instead of one. 
